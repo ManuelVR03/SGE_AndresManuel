@@ -16,8 +16,8 @@ public class Calculadora {
         System.out.println("-------   División (3)  --------");
         System.out.println("------  Raiz Cuadrada (4)  -----");
         System.out.println("--------------------------------");
-
         System.out.println();
+        
         do {
             inc = false;
             try {
