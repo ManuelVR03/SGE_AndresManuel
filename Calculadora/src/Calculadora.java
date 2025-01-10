@@ -11,6 +11,7 @@ public class Calculadora {
         System.out.println("---------    MENU    -----------");
         System.out.println("--------------------------------");
         System.out.println("---------   Suma (0)   ---------");
+        System.out.println("---------  Resta (1)   ---------");
         System.out.println("------  Multiplicación (2)  ----");
         System.out.println("-------   División (3)  --------");
         System.out.println("-------   Potencia (4)  --------");
@@ -41,6 +42,9 @@ public class Calculadora {
                     switch (respuesta) {
                         case 0:
                             resultado = op.suma(numero1, numero2);
+                            break;
+                        case 1:
+                            resultado = op.resta(numero1, numero2);
                             break;
                         case 2:
                             resultado = op.multiplicacion(numero1, numero2);
